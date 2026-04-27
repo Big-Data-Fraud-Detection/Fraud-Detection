@@ -1,3 +1,5 @@
+#pip install streamlit plotly polars lightgbm shap scikit-learn kagglehub
+#python -m streamlit run fraud_dashboard.py
 """
 PaySim Fraud Detection — Streamlit Dashboard
 Run: streamlit run fraud_dashboard.py
