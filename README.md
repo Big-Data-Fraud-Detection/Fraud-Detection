@@ -34,9 +34,29 @@ This project simulates a real-world fraud detection pipeline:
 - Python 3.10+
 - pip
 
+### Create and activate virtual environment
+
+**Windows:**
+```bash
+py -m venv venv
+venv\Scripts\activate
+```
+
+**macOS/Linux:**
+```bash
+python3 -m venv venv
+source venv/bin/activate
+```
+
 ### Install dependencies
 ```bash
 pip install -r requirements.txt
+```
+
+### Set up Jupyter kernel (optional)
+```bash
+pip install ipykernel
+python -m ipykernel install --user --name=fraud-env --display-name "Python (fraud-env)"
 ```
 
 ---
