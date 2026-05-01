@@ -244,15 +244,15 @@ All outputs were reviewed and validated manually.
 ```
 fraud-detection/
 │
-├── fraud_detection_pipeline.ipynb
-├── fraud_dashboard.py
-├── requirements.txt
+├── docs/
+├── .gitignore
+├── Project_4_Enterprise_Fraud_Detection_Platform.ipynb
 ├── README.md
-│
-├── data/
-├── models/
-├── mlruns/
-└── outputs/
+├── app.py
+├── fraud_dashboard.py
+├── mlflow_logging_code.py
+├── requirements.txt
+├── test_api.py
 ```
 
 ## Acknowledgments
