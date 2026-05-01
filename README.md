@@ -6,7 +6,7 @@ The system is fully reproducible, tracked with MLflow, and includes SHAP-based e
 
 ---
 
-## 👥 Group Members
+## Group Members
 
 - Israel De La Mothe — 816037345  
 - Kieron Seepersad — 816041436  
@@ -15,7 +15,7 @@ The system is fully reproducible, tracked with MLflow, and includes SHAP-based e
 
 ---
 
-## 📌 Overview
+## Overview
 
 This project simulates a real-world fraud detection pipeline:
 
@@ -61,7 +61,7 @@ python -m ipykernel install --user --name=fraud-env --display-name "Python (frau
 
 ---
 
-## 📊 Pipeline
+## Pipeline
 
 ### 1. Data Ingestion
 - **Dataset:** PaySim (synthetic financial transactions)
@@ -80,7 +80,7 @@ python -m ipykernel install --user --name=fraud-env --display-name "Python (frau
 
 We created high-signal behavioral features.
 
-#### 🔥 Most Important Features
+#### Most Important Features
 - `exact_drain` → entire balance transferred
 - `orig_zeroed` → balance becomes zero
 - `orig_balance_error` → balance inconsistency
@@ -170,7 +170,7 @@ streamlit run fraud_dashboard.py
 
 ---
 
-## 📈 Visualizations
+## Visualizations
 
 Generated plots:
 - Precision-Recall Curve
@@ -181,7 +181,7 @@ Generated plots:
 
 ---
 
-## 🔁 Reproducibility
+## Reproducibility
 
 - Random seed: 42
 - Stratified splits
@@ -189,7 +189,7 @@ Generated plots:
 
 ---
 
-## 📂 Dataset
+## Dataset
 
 - **Name:** PaySim
 - **Source:** Kaggle
@@ -203,7 +203,7 @@ Generated plots:
 
 ---
 
-## 🧠 Key Learnings
+## Key Learnings
 
 - Fraud detection is highly imbalanced
 - Feature engineering is critical
@@ -212,7 +212,7 @@ Generated plots:
 
 ---
 
-## ⚠️ Limitations
+## Limitations
 
 - Synthetic dataset (not fully realistic)
 - Static fraud patterns (no concept drift)
@@ -220,7 +220,7 @@ Generated plots:
 
 ---
 
-## 🚀 Future Improvements
+## Future Improvements
 
 - Time-series behavioral modeling
 - Graph-based fraud detection
@@ -229,7 +229,7 @@ Generated plots:
 
 ---
 
-## 🤖 AI Tools Used
+##  AI Tools Used
 
 - **ChatGPT** — debugging & explanations
 - **Claude** — documentation refinement
@@ -239,7 +239,7 @@ All outputs were reviewed and validated manually.
 
 ---
 
-## 📁 Project Structure
+## Project Structure
 
 ```
 fraud-detection/
@@ -255,15 +255,7 @@ fraud-detection/
 └── outputs/
 ```
 
----
-
-## 📜 License
-
-Educational use only.
-
----
-
-## 🙏 Acknowledgments
+## Acknowledgments
 
 - PaySim dataset creators
 - LightGBM
